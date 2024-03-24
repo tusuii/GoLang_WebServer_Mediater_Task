@@ -66,10 +66,10 @@ This is a backend application for managing newsreader details and work schedules
 
 #### GitHub Repository:
 
-The code for this project is available on GitHub: [News Channel Backend Repository](https://github.com/yourusername/news-channel-backend)
+The code for this project is available on GitHub: [News Channel Backend Repository](https://github.com/tusuii/GoLang_WebServer_Mediater_Task/)
 
 #### Testing:
 
-Please find the testing video of the endpoints [here](link_to_testing_video).
+Please find the testing video of the endpoints [here](https://drive.google.com/file/d/1e8tXaxsThdRE8cElHr2O9dVsPhrl-wGd/view?usp=drive_link)
 
-For any further information or issues, please contact [your contact information].
+For any further information or issues, please contact [Twitter](https://twitter.com/SubodhKamble42).
