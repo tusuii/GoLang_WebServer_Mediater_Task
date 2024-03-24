@@ -4,7 +4,7 @@ This is a backend application for managing newsreader details and work schedules
 
 ## Running Server
 
-[](./images/server.png)
+![](./images/server.png)
 
 #### Endpoints:
 
@@ -13,32 +13,32 @@ This is a backend application for managing newsreader details and work schedules
    - Method: POST
    - Request Body: JSON object containing news reader details (e.g., name, email, phone number, designation, etc.)
 
-[](./images/post_1.png)
+![](./images/post_1.png)
 
-[](./images/post_2.png)
+![](./images/post_2.png)
 
-[](./images/post_3.png)
+![](./images/post_3.png)
 
 2. **Update newsreader details:**
    - Endpoint: `localhost:8080/newsreader/{id}`
    - Method: PUT
    - Request Body: JSON object containing updated news reader details
 
-[](./images/put.png)
+![](./images/put.png)
 
 3. **Delete newsreader details:**
    - Endpoint: `localhost:8080/newsreader/{id}`
    - Method: DELETE
    - Path Parameter: ID of the news reader to be deleted
 
-[](./images/delete_3.png)
+![](./images/delete_3.png)
 
 4. **View all newsreader details:**
    - Endpoint: `localhost:8080/newsreaders`
    - Method: GET
    - Response: JSON array containing all news reader details
 
-[](./images/get_all.png)
+![](./images/get_all.png)
 
 5. **Add work schedule details for a newsreader:**
    - Endpoint: `localhost:8080/newsreader/{id}/workschedule`
@@ -46,7 +46,7 @@ This is a backend application for managing newsreader details and work schedules
    - Path Parameter: ID of the news reader
    - Request Body: JSON object containing work schedule details (e.g., news_prg_name, date, start time, end time)
 
-[](./images/post_2a.png)
+![](./images/post_2a.png)
 
 6. **Display the total hours of work for a news reader:**
    - Endpoint: `localhost:8080/newsreader/{id}/totalhours`
@@ -54,7 +54,7 @@ This is a backend application for managing newsreader details and work schedules
    - Path Parameter: ID of the news reader
    - Response: JSON object containing total hours worked by the news reader
 
-[](./images/get_hours.png)
+![](./images/get_hours.png)
 
 #### Models:
 
